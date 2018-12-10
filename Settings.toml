@@ -1,0 +1,7 @@
+[[tiles]]
+max_level = 4
+# source = { path = "resources/land-polygons-complete-4326.zip", encoding =
+# "zip" }
+source = { url = "http://data.openstreetmapdata.com/land-polygons-complete-4326.zip", encoding = "zip" }
+output = "tiles_3"
+tile_prefix = "my_tile$"
